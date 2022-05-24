@@ -31,10 +31,15 @@ CSS
 	o CSS in-line é inserido diretamente na tag, porém a estilização fica restrita apenas a aquela 
 		tag 
 
+-----------------------------------------------------------------------------------------------
+JavaScript 
 
-
-
-	
+1-O que é JavaScript? Como usar JavaScript?
+	linguam de programação usada para manipular comportamentos na página (torna a aplicação dinâmica)
+	pode ser usada de maneira: 
+		interna - script inserido diretamente na página HTML 
+		externa - criado um arquivo dedicado de JS, porem lincado a determinada página de HTML
+		
 
 
 
