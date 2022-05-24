@@ -31,6 +31,18 @@ CSS
 	o CSS in-line é inserido diretamente na tag, porém a estilização fica restrita apenas a aquela 
 		tag 
 
+3-Como usar o CSS incorporado
+	o CSS incorporado é criado no HTML, porem abaixo do title é criado o 'style' para estilizar 
+	o incorporado permite estilizar pegando pelo id ou class da tag, estilizando varias tags de uma vez 
+
+4-Como usar o CSS externo
+	através de um arquivo CSS fora do arquivo HTML, sendo linkado com o HTML abaixo do title
+	 é o mais recomendado 
+
+5-Como usar background do CSS
+	atributo que srve para determinar a cor de fundo de algo 
+	
+
 -----------------------------------------------------------------------------------------------
 JavaScript 
 
@@ -64,6 +76,24 @@ PHP
 	<?php 
 		"instrução";
 	?> 
+
+6-Como criar variável com PHP
+	a variável serve para armazenar informações (como se fosse uma caixa)
+
+7-Como converter variável com PHP
+	converção de tipo de variáveis (string para number, por exemplo) 
+		quando soma-se um integer com integer, ele passa a ser integer(serve para float também)
+	
+8-Como usar operadores aritméticos com PHP
+	adição, subtração, multiplicação, divisão, módulo resto (+, -, *, /, %)
+
+9-Como usar operadores de atribuição com PHP
+	= - atribuição simles 
+	+= - mais igual
+	-= - menor igual
+	*= - vezes igual 
+	/= - atribuição com divisão
+	
 
 
 
