@@ -1,0 +1,66 @@
+APRESENTAÇÃO
+
+1-apresentação do curso de PHP Developer 
+	ok 
+
+-----------------------------------------------------------------------------------------------
+HTML 
+
+1-O que é HTML
+	linguagem de marcação que serve para estruturar o conteúdo da página 
+
+2-Requisitos
+	editor de texto (bloco de notas, notepad++, vs code)
+	navegador (mozilla, chrome)
+
+3-Sintaxe básica do HTML
+	sempre dentro de tags "<>" e "</>" 
+		ex: <p>testando</p> 
+	o HTML não é case sensitive, porém é recomendado seguir um padrão, tudo maiúsculo, ou tudo 
+		minúsculo 
+
+
+-----------------------------------------------------------------------------------------------
+CSS 
+
+1-O que é CSS?
+	utilizado para a estilização da página 
+	espera o nome do seletor que será estilizado, captado por class ou id, em seguida a instrução
+
+2-Como usar o CSS inline
+	o CSS in-line é inserido diretamente na tag, porém a estilização fica restrita apenas a aquela 
+		tag 
+
+
+
+
+	
+
+
+
+-----------------------------------------------------------------------------------------------
+PHP 
+
+1-o que é o PHP?
+	linguagem de programação executada no lado do servidor (back-end)
+
+2-Preparar ambiente para desenvolvimento web 
+	editor de texto (bloco de notas, notepad++, vs code)
+	servidor local (xampp, wampp)
+	navegador(mizilla, chrome) 
+
+3-Como instalar o WampServer
+	https://www.wampserver.com/en/ 
+
+4-Como instalar o Xampp 
+	https://www.apachefriends.org/pt_br/index.html 
+
+5-Sintaxe básica do PHP
+	<?php 
+		"instrução";
+	?> 
+
+
+
+
+	
