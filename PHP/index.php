@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* 5 */
 echo "teste curso PHP Celke";
@@ -13,10 +13,10 @@ echo "Meu nome é " . $nome . " e tenho " . $idade . " anos de idade.";
 echo "<br>";
 
 /* 7 */
-$result = "2"; 
+$result = "2";
 var_dump($result);
 echo "<br>";
-$result_dois = $result +1;
+$result_dois = $result + 1;
 var_dump($result_dois);
 echo "<br>";
 $result_tres = (string)$result_dois;
@@ -42,3 +42,30 @@ $result_atribuicao = 6;
 echo "Somar o valor $result_atribuicao pelo valor $a <br>";
 $result_atribuicao += $a;
 echo "Resultado da adição: $result_atribuicao <br>";
+
+/* 10 */
+$aa = 5;
+echo "O número é: " . $aa++ . "<br>";
+echo "O número incrementado é: " . $aa . "<br>";
+
+/* 11 */
+$vv = 11;
+if ($vv == 10) {
+    echo "O número é igual a 10";
+} else {
+    echo "O número não é igual a 10";
+}
+
+echo "<br>";
+
+/* 12 */
+$numA = 10;
+$numB = 5;
+if ($numA && $numB === 10) {
+    echo "O número " . $numA . " e o  " . $numB . " são iguais";
+} else {
+    echo "O número " . $numA . " e o  " . $numB . " não são iguais";
+}
+
+echo "<br>";
+

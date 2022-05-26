@@ -4,5 +4,22 @@ h3{
 
 body{
     background-color: antiquewhite;
-    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: black;
 }

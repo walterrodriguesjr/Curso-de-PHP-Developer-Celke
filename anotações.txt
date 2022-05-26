@@ -19,6 +19,48 @@ HTML
 	o HTML não é case sensitive, porém é recomendado seguir um padrão, tudo maiúsculo, ou tudo 
 		minúsculo 
 
+4-como trabalhar com texto no HTML 
+	tipo de H (H1, H2 etc)
+		h1 - para título (cada página somente deve ter um)
+		h2 - pode usar quantas vezes quiser
+		h3 - pode usar quantas vezes quiser
+		h4 - pode usar quantas vezes quiser
+		h5 - pode usar quantas vezes quiser
+		h6 - pode usar quantas vezes quiser
+		a tag <br> serve para quebrar linha 
+		a tag <p> serve para criar parágrafo
+
+5-Como usar cores no HTML
+	as cores podem ser usando seus nomes em inglês ou em número hexadecimal 
+	RGB é: ex; 00BB00
+		 os 2 primeiros numeros, o quanto de red
+		 os 2 números do meio, o quanto de green
+		 os 2 últimos números, o quanto de blue
+	
+6-Como criar lista ordenada com HTML
+	são as tags:
+		 OL = lista ordenada / LI = itens da lista 
+
+7-Como criar lista não ordenada com HTML
+	são as tags: 
+		UL = lista não ordenada / LI = itens da lista 
+
+8-Tipo de listas
+	utiliza o 'type' dentro da tag para dizer qual marcação será usada na ordenação
+		ordenadas = por número, letras maiúsculas e minúsculas, números romanos 
+		não ordenadas = por círculo, quadrado etc	
+
+9-Como inserir imagem com HTML
+	utiliza a tag <img> em seguida insere o link desta 
+		é possível na propría tag também incluir os atributos width e heigth 
+		importante usar o 'alt' para que ,quando a imagem não for localizada, carrega um titulo alternativo 
+		importante também usar o title, para uma descrição da imagem
+
+10-Como criar link com HTML
+	utiliza a tag <a href> em seguida insere o link direcionado 
+	pode direcionar de site para site ou outra aba do mesmo site 
+	pode usar style no link também
+		pode se usar o target="_blank" dentro da tag, para dizer que abrirá uma nova aba para o link 
 
 -----------------------------------------------------------------------------------------------
 CSS 
@@ -41,7 +83,14 @@ CSS
 
 5-Como usar background do CSS
 	atributo que srve para determinar a cor de fundo de algo 
-	
+
+6-Como personalizar texto com CSS
+	trata-se a orientação do texto, centralizar ou alinha a esquerda ou a direita, justificar etc.. 
+	retirar o sublinado de link com text-decoration - none
+
+7-Como personalizar link com CSS
+	usa o a:visited, quando link já acessado 
+	usa o hover quando passa por cima e muda de cor 
 
 -----------------------------------------------------------------------------------------------
 JavaScript 
@@ -51,9 +100,22 @@ JavaScript
 	pode ser usada de maneira: 
 		interna - script inserido diretamente na página HTML 
 		externa - criado um arquivo dedicado de JS, porem lincado a determinada página de HTML
-		
 
+2-Como criar variáveis com JavaScript
+	variáveis são usadas para armazenar dados. (como se fosse uma caixa para guardar algo) 
+		ex: var nome = "Walter"; 
+	JavaScript é case sensitive 
 
+3-Como usar constante com JavaScript
+	const são variáveis que nunca podem ser alteradas 
+		const nome = "nome";
+
+4-Criar função com JavaScript 
+	são blocos de construção em JavaScript, é um conjunto de instruções que realiza uma tarefa 
+
+5-Operadores matemáticos
+	utilizados para realizar operações aritmética básica 
+	
 
 -----------------------------------------------------------------------------------------------
 PHP 
@@ -93,6 +155,16 @@ PHP
 	-= - menor igual
 	*= - vezes igual 
 	/= - atribuição com divisão
+
+10-Como usar incremento e decremento com PHP
+	incrementa com ++ e -- (usado em for, por exemplo)
+
+11-Como usar operadores de comparação com PHP
+	serve para comparação de valores (==, !=, <, >, <=, >=)
+
+12-Como usar operadores lógicos com PHP
+	serve para comparar duas coisas (&& = e, || = ou, ! = negação)
+
 	
 
 
