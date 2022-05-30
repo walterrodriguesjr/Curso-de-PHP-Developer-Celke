@@ -134,7 +134,7 @@ JavaScript
 
 11-Como usar o switch no JavaScript
 	é uma estrutura condicional que avalia por 'casos'. case 
-	
+
 	
 
 -----------------------------------------------------------------------------------------------
@@ -184,6 +184,15 @@ PHP
 
 12-Como usar operadores lógicos com PHP
 	serve para comparar duas coisas (&& = e, || = ou, ! = negação)
+
+13-Como usar estrutura de controle IF com PHP
+	if é a estrutura condicional se senão.
+
+14-Como usar estrutura de controle IF e ELSE com PHP
+	if, else if, else 
+
+
+
 
 	
 

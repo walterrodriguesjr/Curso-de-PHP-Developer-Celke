@@ -69,3 +69,18 @@ if ($numA && $numB === 10) {
 
 echo "<br>";
 
+/* 13 */
+$numf = 11;
+if($numf == 10){
+    echo "é igual a 10<br>";
+}else{
+    echo "não é igual a 10<br>";
+};
+
+/* 14 */
+$numf = 15;
+if($numf == 11){
+    echo "é igual a 11<br>";
+}else{
+    echo "não é igual a 11<br>";
+};
