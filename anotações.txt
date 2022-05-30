@@ -115,6 +115,26 @@ JavaScript
 
 5-Operadores matemáticos
 	utilizados para realizar operações aritmética básica 
+
+6-Operadores de atribuição
+	são os operadores que atribuem valor (=, +=, -=, *=, /=, %=)
+	é uma maneira de abreviar a operação 
+
+7-Operadores de comparação
+	compara um valor com outro, o qual retorna booleano, true ou false. (==, !=, <, >, <=, >=)
+
+8-Operadores lógicos
+	são os operadores: (&&, ||, !)
+
+9-Operadores de Incremento e decremento
+	são os operadores usados em loop, por exemplo. (++, --)
+
+10-Como usar if e else como JavaScript
+	é uma estrutura condicional  ( se, senão se, senão)
+
+11-Como usar o switch no JavaScript
+	é uma estrutura condicional que avalia por 'casos'. case 
+	
 	
 
 -----------------------------------------------------------------------------------------------
