@@ -6,6 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3-requisitos</title>
+    <style>
+        table,
+        tr,
+        th {
+            border: 1px solid black;
+        }
+
+        table,
+        tr,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,12 +61,78 @@
     </ol>
 
     <!-- 9 -->
-    <img src="./img//programacao-scaled.jpg" width="250", height="200" alt="imagem de TI" title="TI">
+    <img src="./img//programacao-scaled.jpg" width="250" , height="200" alt="imagem de TI" title="TI">
 
     <br>
 
     <!-- 10 -->
     <a href="https://celke.com.br/" style="color: black" target="_blank">link</a>
+
+    <!-- 11 -->
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Ações</th>
+        </tr>
+
+        <tr>
+            <td>Cesar</td>
+            <td>cesar@gmail.com</td>
+            <td>31/05/2022</td>
+        </tr>
+        <tr>
+            <td>Walter</td>
+            <td>walterr@gmail.com</td>
+            <td>31/05/2022</td>
+        </tr>
+    </table>
+
+    <!-- 12 -->
+    <form action="">
+        <h1>Cadastrar Usuário</h1>
+        <label for="">Nome</label>
+        <input type="text" name="nome_usuario" id="nome_usuario" placeholder="Digite o nome:"><br><br>
+        <label for="">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="Digite o e-mail:"><br><br>
+        <input type="button" value="Cadastrar">
+    </form>
+
+    <!-- 13 -->
+    <form action="">
+        <h1>Cadastrar Habilitação</h1>
+        <label for="">Categoria da habilitação:</label><br>
+        <input type="checkbox" name="a" id="a" value="a">A<br>
+        <input type="checkbox" name="b" id="b" value="a">B<br>
+        <input type="checkbox" name="c" id="c" value="a">C<br>
+        <input type="checkbox" name="d" id="d" value="a">D<br>
+        <input type="checkbox" name="e" id="e" value="a">E<br>
+        <input type="button" value="Cadastrar">
+    </form>
+
+    <!-- 14 -->
+    <form action="">
+        <h1>Cadastrar nível de acesso</h1>
+        <label for="">Nível de acesso</label>
+        <select name="nivel" id="nivel">
+            <option value="">Selecione</option>
+            <option value="administrador">Administrador</option>
+            <option value="financeiro">Financeiro</option>
+            <option value="cliente">Cliente</option>
+        </select>
+        <br>
+        <br>
+        <input type="button" value="Cadastrar">
+    </form>
+
+    <form action="">
+        <h1>Cadastrar Mensagem</h1>
+        <label for="">Mensagem: </label><br><br>
+        <textarea name="mensagem" id="mensagem" cols="40" rows="5"></textarea>
+        <br>
+        <br>
+        <input type="button" value="Cadastrar">
+    </form>
 
 
 

@@ -62,6 +62,26 @@ HTML
 	pode usar style no link também
 		pode se usar o target="_blank" dentro da tag, para dizer que abrirá uma nova aba para o link 
 
+11-Como criar tabelas com HTML
+	usa a tag <table>, em seguida, para a linha da tabela usa a tag <tr>
+	para títulos, usa-se a tag <th>, para cada coluna, usa-se a tag <td>
+
+12-Como criar formulário com HTML
+	usa a tag <form> 
+	dentro do form entram os inputs, select etc.. 
+
+13-Como criar campo checkbox e radio com HTML
+	checkbox é o campo de marcar com true ou false(caixa de seleção)
+
+14-Como criar campo select e textarea com HTML
+	usa a tag <select> e a tag <textarea>	
+
+15-Como usar as TAG do HTML para criar o layout
+	são elementos do HTML que definem as diferentes partes de uma página web. 
+		exexmplo de estrutura feito em página a parte
+
+								FINALIZADO
+
 -----------------------------------------------------------------------------------------------
 CSS 
 
@@ -91,6 +111,33 @@ CSS
 7-Como personalizar link com CSS
 	usa o a:visited, quando link já acessado 
 	usa o hover quando passa por cima e muda de cor 
+
+8-Como usar lista para criar menu com CSS
+	inserido uma <ul> com diversas <li> usando a <href>
+
+9-Como usar seletores do CSS
+	selecionando  pela tag, pela class, pelo id 
+
+10-Como definir largura e altura com CSS
+	para altura usa-se o height 
+	para largura usa-se o heigth
+
+11-Como personalizar a borda com CSS
+	usa-se o border-style 
+
+12-Como inserir margem com CSS
+	usa-se o margin (sendo top, bottom, left ou right) 
+
+13-Como usar padding do CSS
+	usa-se o padding para gerar espaço em torno do elemento (sendo top, bottom, left ou right) 
+
+14-Como criar tabela com CSS
+	estiliza-se as tags padrão de tablea do HTML 
+	
+15-Como usar display do CSS
+	serve para especificar se o elemento deve ser exibido e como será exibido 
+
+											FINALIZADO
 
 -----------------------------------------------------------------------------------------------
 JavaScript 
@@ -135,7 +182,13 @@ JavaScript
 11-Como usar o switch no JavaScript
 	é uma estrutura condicional que avalia por 'casos'. case 
 
-	
+12-Como usar o while no JavaScript
+	while é um comando que serve para manter uma quantidade de script executando repetidamente 
+
+13-Como usar o do while no JavaScript
+	a diferença para o while, é que, o do while incrementa antes verificar 
+
+14-
 
 -----------------------------------------------------------------------------------------------
 PHP 

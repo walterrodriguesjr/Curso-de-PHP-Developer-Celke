@@ -104,4 +104,24 @@ switch (l) {
     document.write("Nenhuma das opções.<hr>");
 };
 
+/* 12 */
+var m = 0;
+while (m <= 10) {
+  document.write(m + " passada<br>");
+  if (m == 10) {
+    document.write("<hr>");
+  }
+  m++;
+}
+
+/* 13 */
+var n = 2;
+do {
+  document.write(n + " repetindo<hr>");
+  n++;
+} while (n < 2);
+
+/* 14 */
+
+
 
