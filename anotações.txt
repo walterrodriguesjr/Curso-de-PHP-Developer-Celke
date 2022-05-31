@@ -189,8 +189,26 @@ PHP
 	if é a estrutura condicional se senão.
 
 14-Como usar estrutura de controle IF e ELSE com PHP
+	if, else 
+
+15-Como usar estrutura de controle IF e ELSEIF com PHP
 	if, else if, else 
 
+16-Como usar o switch com PHP
+	switch executa algo, usando os 'case'
+
+17-Como usar o comando de repetição while com PHP
+	o while executa um conjunto de instruções, até que determinada condição seja atingida 
+
+18-Como usar o comando de repetição do while com PHP
+	o do while funciona semelhante ao while, porem a condicional é executada no final.
+
+19-Como usar o comando de repetição for com PHP
+	o for é uma estrutura de repetição utilizada para saber a quantidade de rerpetições que devem ser executadas
+
+20-Como usar o comando de repetição foreach com PHP
+	serve para navegar entre os elementos de um array 
+	
 
 
 
