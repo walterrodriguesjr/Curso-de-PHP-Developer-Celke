@@ -122,6 +122,61 @@ do {
 } while (n < 2);
 
 /* 14 */
+var o = 0;
+for (let o = 0; o <= 10; o++) {
+  document.write(o + " valor<br>");
+}
+document.write("<hr>");
+
+/* 15 */
+var cadeira = {
+  cor: "preto",
+  altura: 118,
+  largura: 74,
+  profundidade: 64,
+  peso: 17
+};
+
+document.write("Cor da cadeira: " + cadeira.cor + "<br>");
+document.write("Altura da cadeira: " + cadeira.altura + "<br>");
+document.write("Largura da cadeira: " + cadeira.largura + "<br>");
+document.write("Profundidade da cadeira: " + cadeira.profundidade + "<br>");
+document.write("Peso da cadeira: " + cadeira.peso + "<br>");
+document.write("<br>");
+
+var mesa = new Object();
+mesa.cor = "preta";
+mesa.altura = 80;
+mesa.qntCadeiras = 4;
+document.write("Cor da mesa: " + mesa.cor + "<br>");
+document.write("Altura da mesa: " + mesa.altura + "<br>");
+document.write("Quantidade de cadeiras da mesa: " + mesa.qntCadeiras + "<br>");
+
+document.write("<hr>");
+
+/* 16 */
+var frutas = [
+"Abacate", "Banana", "Maçã", "Pera", "Mamão"
+];
+
+frutas.forEach(fruta => {
+  document.write(fruta + "<br>");
+});
+document.write("Total de frutas: " + frutas.length + "<br>");
+
+document.write("<hr>");
+
+/* 17 */
+function carConteudo(){
+  document.getElementById("conteudo").innerHTML ="lorem asuhs huash h asu hasuhsa us haus haus haush";
+}
+
+/* 18 */
+
+
+
+
+
 
 
 

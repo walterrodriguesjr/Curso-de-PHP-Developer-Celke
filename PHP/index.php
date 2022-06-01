@@ -152,3 +152,55 @@ function promocao($valor)
 };
 $retorno_dados = promocao($codigo);
 echo $retorno_dados . "<br>";
+
+/* 22 */
+echo "<h4>Passagem por valor</h4>";
+
+function salario($salario)
+{
+    $salario += 50;
+    echo "Dentro da função - Salário com aumento: $salario <br>";
+}
+$salario = 8200;
+salario($salario);
+echo "Salário sem aumento: $salario <br>";
+echo "<hr>";
+
+function salario_a($numN)
+{
+    $numN += 50;
+    echo "Fora da função - imprimindo o retorno: $numN <br>";
+    return $numN;
+}
+$salario = 8500;
+$salario_com_aumento = salario_a($salario);
+echo "<hr>";
+
+echo "<h4>Passagem por referência</h4>";
+function salario_b(&$numO)
+{
+    $numO += 200;
+    echo "Dentro da função - Salário com aumento: $numO <br>";
+}
+$salario_b = 9300;
+echo "Salário sem aumento: $salario_b <br>";
+salario_b($salario_b);
+echo "Salário com aumento: $salario_b <br>";
+
+/* 23 */
+function exibe($numP)
+{
+    echo "Valor passado para a função: $numP <br>";
+}
+exibe(10);
+
+/* 24 */
+/* cookie válido por 7 dias */
+setcookie("afiliado", "5323", time() + (7 * 24 * 3600));
+if (isset($_COOKIE['afiliado'])) {
+    $afiliado = $_COOKIE['afiliado'];
+    echo "Número do afiliado: " . $afiliado . "<br>";
+}
+
+/* 25 */
+

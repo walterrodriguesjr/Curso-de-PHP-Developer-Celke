@@ -188,7 +188,29 @@ JavaScript
 13-Como usar o do while no JavaScript
 	a diferença para o while, é que, o do while incrementa antes verificar 
 
-14-
+14-Como usar o for no JavaScript
+	possibilita que seja executado várias vezes um conjunto de código
+
+15-Como criar objeto com JavaScript
+	um objeto é uma coleção de propriedades 
+
+16-Como criar array com JavaScript
+	arrays são usados para armazenar vários valores em uma única variável 
+
+17-Como criar e usar evento no JavaScript
+	um evento pose ser algo que o navegador faz ou algo que o usuário faz 
+		(onClick, onMouseOver, onMouseOut etc)
+
+18-Como usar o DOM no JavaSript
+   DOM é a estrutura (arvore) do HTML 
+		usa os acessadores (getElementById, getElementByname etc...)
+
+19-Como usar o Nodelist no JavaScript
+	as funções que acessam elementos da página HTML retornam sempre um conjunto de elementos. 
+		esse conjunto é denominado Nodelist 
+
+						FINALIZADO
+
 
 
 -----------------------------------------------------------------------------------------------
@@ -264,8 +286,23 @@ PHP
 	serve para navegar entre os elementos de um array 
 
 21-Como criar função com PHP
-	são úteis para deixar o código dos programas mais modular e organizado.
-	evitam ter reescrever código 
+	SÃO UTEIS PARA DEIXAR O CODIGO MAIS MODULAR E organizado, evita reescrever código 
+
+22-Como enviar parâmetros na função como valor por referência
+	quando o parametro é passado por valor,e é modificado, o conteudo só afeta dentro da função
+	quando é passado por referencia, ae sim, ele é alterado como um todo 
+
+23-Como criar função recursiva com PHP
+	são aquelas que chamam a si mesmo
+
+24-Como usar cookies com PHP
+	cookies são arquivo texto criado no navegador do usuário, para poder recuperar depois, sendo no mesmo 
+		site.
+	Ligado a dados de carrinho de compra, login de usuario, se já votou em uma enquete 
+
+25-Como usar sessão com PHP
+	session é um recurso que permite salvar valores para que sejam usadas ao longo da visita 
+		session_start() sempre deverá ser a PRIMEIRA instrução da página
 	
 
 
