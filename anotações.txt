@@ -190,6 +190,7 @@ JavaScript
 
 14-
 
+
 -----------------------------------------------------------------------------------------------
 PHP 
 
@@ -261,6 +262,10 @@ PHP
 
 20-Como usar o comando de repetição foreach com PHP
 	serve para navegar entre os elementos de um array 
+
+21-Como criar função com PHP
+	são úteis para deixar o código dos programas mais modular e organizado.
+	evitam ter reescrever código 
 	
 
 

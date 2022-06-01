@@ -135,3 +135,20 @@ $alunos = ["A", "B", "C", "D"];
 foreach ($alunos as $aluno) {
     echo "Nome: " . $aluno . "<br>";
 }
+
+/* 21 */
+$codigo = "cursophp";
+function promocao($valor)
+{
+    echo "Acessou o curso<br>";
+    echo "Parâmetro: $valor <br>";
+    if ($valor == "cursophp") {
+        $msg = "Código válido<br>";
+    } else {
+        echo "Código Inválido<br>";
+        $msg = "Código Inválido<br>";
+    }
+    return $msg;
+};
+$retorno_dados = promocao($codigo);
+echo $retorno_dados . "<br>";
