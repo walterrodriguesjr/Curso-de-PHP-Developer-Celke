@@ -214,6 +214,25 @@ JavaScript
 
 
 -----------------------------------------------------------------------------------------------
+Criar o layout do site 
+
+1-Criar a estrutura básica
+	criação da pasta 'Layout-site', o arquivo index.html, o arquivo custom.css e o custom.js 
+
+2-Incluir a biblioteca de ícones Font Awesome
+	incluida a biblioteca font awesome
+
+3-Incluir Google Fonts
+	incluido pacote de fontes do google fonts - ubuntu e poppins 
+
+4-Personalizar o menu do site
+	feita adaptações e customizações em custom.css 
+
+5-Criar o menu responsivo
+	implementada a responsividade com @media max-width, bem a logica JS para ação de click no menu 
+
+
+-----------------------------------------------------------------------------------------------
 PHP 
 
 1-o que é o PHP?
@@ -304,6 +323,28 @@ PHP
 	session é um recurso que permite salvar valores para que sejam usadas ao longo da visita 
 		session_start() sempre deverá ser a PRIMEIRA instrução da página
 	
+
+							FINALIZADO
+-----------------------------------------------------------------------------------------------
+PHP e Banco de Dados 
+
+1-O que é banco de dados? 
+	serve para armazenar informações 
+	será usado o SQL 
+
+2-Programa para trabalhar com banco de dados
+	MySQL	
+		phpMyadmin
+			Workbench 
+
+3-Como criar diagrama de entidade e relacionamento
+	é a representação gráfica do banco de dados (recomendado antes de implementar o banco de fato)
+		criado o referido diagrama no workbench 
+
+4-Como criar banco de dados
+	criado um banco de dados manualmente no phpmyadmin 
+
+
 
 
 

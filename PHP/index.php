@@ -202,5 +202,5 @@ if (isset($_COOKIE['afiliado'])) {
     echo "Número do afiliado: " . $afiliado . "<br>";
 }
 
-/* 25 */
+
 
