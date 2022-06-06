@@ -231,6 +231,8 @@ Criar o layout do site
 5-Criar o menu responsivo
 	implementada a responsividade com @media max-width, bem a logica JS para ação de click no menu 
 
+6-Criar o layout da área de serviços na página inicial
+	
 
 -----------------------------------------------------------------------------------------------
 PHP 
@@ -343,6 +345,30 @@ PHP e Banco de Dados
 
 4-Como criar banco de dados
 	criado um banco de dados manualmente no phpmyadmin 
+
+5-Como criar tabela no banco de dados
+	objeto para armazenar dados 
+		contém colunas e registros (nome da tabela sempre no plural)
+			*como criar uma tabela em SQL
+			CREATE TABLE usuarios (
+				id int(11),
+				email varchar(220)
+			);
+
+6-Como criar chave primária
+	indentifica cada registro armazenado na tabela, cada tabela somente 1 chave primária 
+		CREATE TABLE users(
+			id int(11) PRIMARY KEY,
+			email varchar(220)
+		);
+
+7-Como usar auto-incremento no banco de dados
+	usado geralmente no id, para que o prórpio sistema se encarregue de adicionar o valor seguido 
+
+8-Como usar not-null no banco de dados MySQL
+	uma restrição que garante que determinada coluna precisa ter um valor 
+
+
 
 
 
