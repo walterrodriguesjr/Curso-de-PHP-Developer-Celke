@@ -236,6 +236,12 @@ Criar o layout do site
 
 7-Criar o layout da área de serviços premium
 	ok
+
+8-Criar o layout do rodapé do site
+	criado a parte de footer (rodapé) do site 
+
+9-Criar o layout da página sobre empresa
+	
 	
 
 -----------------------------------------------------------------------------------------------
