@@ -232,6 +232,10 @@ Criar o layout do site
 	implementada a responsividade com @media max-width, bem a logica JS para ação de click no menu 
 
 6-Criar o layout da área de serviços na página inicial
+	ok 
+
+7-Criar o layout da área de serviços premium
+	ok
 	
 
 -----------------------------------------------------------------------------------------------
@@ -368,7 +372,11 @@ PHP e Banco de Dados
 8-Como usar not-null no banco de dados MySQL
 	uma restrição que garante que determinada coluna precisa ter um valor 
 
-
+9-Como usar chave estrangeira
+	ela contém valores que correspondem aos valores na chave primária de outra tabela 
+		uma tabelma também pode ter uma ou mais chaves estrangeiras 
+		por convenção, a chave estrangeira é escrita inversa do que se refere, e alocada antes do 'created'
+		
 
 
 
