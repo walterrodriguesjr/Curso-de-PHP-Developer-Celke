@@ -241,6 +241,9 @@ Criar o layout do site
 	criado a parte de footer (rodapé) do site 
 
 9-Criar o layout da página sobre empresa
+    ok 
+
+10-
 	
 	
 
@@ -382,7 +385,19 @@ PHP e Banco de Dados
 	ela contém valores que correspondem aos valores na chave primária de outra tabela 
 		uma tabelma também pode ter uma ou mais chaves estrangeiras 
 		por convenção, a chave estrangeira é escrita inversa do que se refere, e alocada antes do 'created'
-		
+
+10-Como normalizar o banco de dados na primeira forma normal
+	normalização é uma ferramenta usada para estruturar as tabelas reduzindo a redundancia 
+		todos os atributos contem apenas um valor (não admite repetições ou mais que um valor)
+	ex: de coluna com mais de um valor (endereço com rua bairro, numero)
+
+11-Como normalizar o banco de dados na segunda forma normal
+	depende de estar já na primeira forma normal 
+
+12-Como normalizar o banco de dados na terceira forma normal
+	necessita estar atendendo os requisitos da segunda forma e todos os requisitos dependem da chave 
+	
+
 
 
 
