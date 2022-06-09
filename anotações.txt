@@ -244,9 +244,8 @@ Criar o layout do site
     ok 
 
 10-Criar o layout da página de contato
-	
-	
-	
+
+									FINALIZADO
 
 -----------------------------------------------------------------------------------------------
 PHP 
@@ -397,6 +396,29 @@ PHP e Banco de Dados
 
 12-Como normalizar o banco de dados na terceira forma normal
 	necessita estar atendendo os requisitos da segunda forma e todos os requisitos dependem da chave 
+
+13-Como criar conexão PHP com banco de dados utilizando PDO
+	utiliza a biblioteca PDO 
+		em index.php está descrito o passo a passo inicial para fazer a conexão com o banco de Dados
+	
+14-Como usar o SELECT com MySQL e PHP
+	a instrução SELECT é usada para obter registros de uma ou mais tabelas do banco de dados 
+		usando comando para estruturar uma query de consulta.
+
+15-Como usar o LIMIT e OFFSET com MySQL e PHP
+	LIMIT é uma cláusula de limite que é usado para especificar o número de registros a serem retornados 
+		ex: SELECT * FROM usuarios LIMIT 30; 
+
+	OFFSET seleciona registros em um intervalo de números 
+		EX: SELECT * FROM usuarios LIMIT 3 OFFSET 15; 
+
+16-Como usar o WHERE com PHP e MySQL
+	a cláusula WHERE  é usada para extrair somente os registros que satisfaçam um critério específico 
+		
+17-Operador AND e OR no MySQL
+	
+
+
 	
 
 
