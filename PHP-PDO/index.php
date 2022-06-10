@@ -166,6 +166,134 @@ include_once "conexao.php";
         echo "<hr>";
     }
     ?>
+
+    <h2>Listar usuários com duas condições AND</h2>
+
+    <?php
+
+    $query_usuarios_i = "SELECT id, nome, email
+                         FROM usuarios
+                         WHERE sists_usuario_id = 2
+                         AND niveis_acesso_id = 3";
+
+    $result_usuario_i = $conn->prepare($query_usuarios_i);
+    $result_usuario_i->execute();
+
+    while ($row_usuario_h = $result_usuario_i->fetch(PDO::FETCH_ASSOC)) {
+        extract($row_usuario_h);
+
+        echo "ID: $id <br>";
+        echo "Nome: $nome <br>";
+        echo "E-mail: $email <br>";
+        echo "Id da Situação: $sists_usuario_id <br>";
+        echo "Id do Nível de acesso: $niveis_acesso_id <br>";
+        echo "<hr>";
+    }
+
+    ?>
+
+    <h2>Listar usuários com duas condições OR</h2>
+
+    <?php
+
+    $query_usuarios_i = "SELECT id, nome, email
+                         FROM usuarios
+                         WHERE (sists_usuario_id = 1
+                         OR niveis_acesso_id = 1)";
+
+    $result_usuario_i = $conn->prepare($query_usuarios_i);
+    $result_usuario_i->execute();
+
+    while ($row_usuario_i = $result_usuario_i->fetch(PDO::FETCH_ASSOC)) {
+        extract($row_usuario_i);
+
+        echo "ID: $id <br>";
+        echo "Nome: $nome <br>";
+        echo "E-mail: $email <br>";
+        echo "Id da Situação: $sists_usuario_id <br>";
+        echo "Id do Nível de acesso: $niveis_acesso_id <br>";
+        echo "<hr>";
+    }
+    ?>
+
+    <h2>Listar usuários usando o ORDER BY</h2>
+
+    <?php
+    $query_usuarios_J = "SELECT id, nome, email
+                         FROM usuarios
+                         ORDER BY id DESC";
+
+    $result_usuario_J = $conn->prepare($query_usuarios_J);
+    $result_usuario_J->execute();
+
+
+    while ($row_usuario_J = $result_usuario_J->fetch(PDO::FETCH_ASSOC)) {
+        extract($row_usuario_J);
+
+        echo "ID: $id <br>";
+        echo "Nome: $nome <br>";
+        echo "E-mail: $email <br>";
+        echo "Id da Situação: $sists_usuario_id <br>";
+        echo "Id do Nível de acesso: $niveis_acesso_id <br>";
+        echo "<hr>";
+    }
+    ?>
+
+    <h2>Inserindo registros usando INSERT INTO</h2>
+
+    <?php
+    /* $query_usuario_k = "INSERT INTO usuarios (nome, email, senha, sists_usuario_id, niveis_acesso_id, created)
+                        VALUES ('Luiz', 'luiz@celke.com.br', '888', 3, 3, NOW())";
+    $result_usuarios_k = $conn->prepare($query_usuario_k); */
+
+    /* colocar a variável direto na query */
+
+    /* $nome = "Luiz";
+    $email = "luiz@celke.com.br";
+    $senha = "888";
+    $sists_usuario_id = 3;
+    $niveis_acesso_id = 2;
+
+    $query_usuarios_k = "INSERT INTO usuarios (nome, email, senha, sists_usuario_id, niveis_acesso_id, created)
+                         VALUES ('$nome', '$email', '$senha', $sists_usuario_id', '$niveis_acesso_id', NOW())"; */
+
+    /* atribuir o link na query e substiruir o link pelo valor com bindParam */
+    /* instrução recomendada */
+
+    $nome = "Luiz";
+    $email = "luiz@celke.com.br";
+    $senha = "888";
+    $sists_usuario_id = 3;
+    $niveis_acesso_id = 2;
+
+    $query_usuarios_k = "INSERT INTO usuarios (nome, email, senha, sists_usuario_id, niveis_acesso_id, created)
+                         VALUES (:nome, :email, :senha, :sists_usuario_id, :niveis_acesso_id, NOW())";
+
+    $cad_usuario = $conn->prepare($query_usuarios_k);
+    $cad_usuario->bindParam(':nome', $nome, PDO::PARAM_STR);
+    $cad_usuario->bindParam(':email', $email, PDO::PARAM_STR);
+    $cad_usuario->bindParam(':senha', $senha, PDO::PARAM_STR);
+    $cad_usuario->bindParam(':sists_usuario_id', $sists_usuario_id, PDO::PARAM_INT);
+    $cad_usuario->bindParam(':niveis_acesso_id', $niveis_acesso_id, PDO::PARAM_INT);
+    $cad_usuario->execute();
+
+    if($cad_usuario->rowCount()){
+        echo "Usuário cadastrado com sucesso!";
+    }else{
+        echo "Erro: Usuario não cadastrado";
+    }
+
+
+
+
+
+
+
+
+
+
+    ?>
+
 </body>
 
 </html>

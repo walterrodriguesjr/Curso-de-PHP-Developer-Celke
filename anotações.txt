@@ -416,6 +416,17 @@ PHP e Banco de Dados
 	a cláusula WHERE  é usada para extrair somente os registros que satisfaçam um critério específico 
 		
 17-Operador AND e OR no MySQL
+	são operadores usados para filtrar registros com base em mais de uma condoção 
+
+18-Como usar o ORDER BY
+	é usado para classificar como os registros serão retornados 
+
+19-Como usar o DISTINCT no MySQL
+	é usada para retornar apenas valores distintos(diferentes)
+
+20-Como usar o INSERT com MySQL
+	é usado para cadastrar um novo registro em uma tabela 
+	
 	
 
 
