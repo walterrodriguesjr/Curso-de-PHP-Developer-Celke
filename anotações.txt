@@ -426,7 +426,14 @@ PHP e Banco de Dados
 
 20-Como usar o INSERT com MySQL
 	é usado para cadastrar um novo registro em uma tabela 
-	
+
+21-Como criar o formulário e usar o INSERT com MySQL
+	feito a lógica de cadastrar usando um from de método POST (arquivo from_insert.php)
+
+22-Como manter os dados no formulário após o erro de cadastro
+	feito a logica direto no HTML para manter o dado no input da inserido
+
+
 	
 
 

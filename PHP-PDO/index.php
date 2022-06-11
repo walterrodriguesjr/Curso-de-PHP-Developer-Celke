@@ -277,21 +277,12 @@ include_once "conexao.php";
     $cad_usuario->bindParam(':niveis_acesso_id', $niveis_acesso_id, PDO::PARAM_INT);
     $cad_usuario->execute();
 
-    if($cad_usuario->rowCount()){
+    if ($cad_usuario->rowCount()) {
         echo "Usuário cadastrado com sucesso!";
-    }else{
+    } else {
         echo "Erro: Usuario não cadastrado";
     }
-
-
-
-
-
-
-
-
-
-
+    echo "<hr>";
     ?>
 
 </body>
