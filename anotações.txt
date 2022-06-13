@@ -433,7 +433,14 @@ PHP e Banco de Dados
 22-Como manter os dados no formulário após o erro de cadastro
 	feito a logica direto no HTML para manter o dado no input da inserido
 
+23-Como preencher o campo SELECT com informações do banco de dados
+	ok
+	
+24-Como usar o UPDATE com MySQL
+	a instrução UPDATE é usado para atualizar registros em uma tabela. 
 
+25-Como criar o formulário editar com PHP
+	implementando a parte visual do UPDATE do form 
 	
 
 
