@@ -441,6 +441,14 @@ PHP e Banco de Dados
 
 25-Como criar o formulário editar com PHP
 	implementando a parte visual do UPDATE do form 
+
+26-Como criar o campo select no formulário editar
+	ok 
+
+27-Como apagar um registro no banco de dados
+	a instrução DELETE é usada para excluir um registro em uma tabela 
+	
+
 	
 
 

@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once "conexao.php";
 ?>
 <!DOCTYPE html>
@@ -6,7 +7,7 @@ include_once "conexao.php";
 
 <head>
     <meta charset="UTF-8" />
-    <title>Celke - Formulario com INSERT</title>
+    <title>Celke - Cadastra Usuario</title>
     <link rel="shortcut icon" href="images/favicon.ico" />
 </head>
 
@@ -33,13 +34,14 @@ include_once "conexao.php";
             $cad_usuario->execute();
 
             if ($cad_usuario->rowCount()) {
-                echo "Usuário cadastrado com sucesso!<br>";
+                $_SESSION['msg'] = "<p style='color: green;'>Usuário cadastrado com sucesso!</p>";
                 unset($dados);
+                header("Location: index.php");
             } else {
-                echo "Erro: Usuário não cadastrado com sucesso!<br>";
+                echo "<p style='color: #f00;'>Erro: Usuário não cadastrado com sucesso!</p>";
             }
         } catch (PDOException $erro) {
-            echo "Erro: Usuário não cadastrado com sucesso!<br>";
+            echo "<p style='color: #f00;'>Erro: Usuário não cadastrado com sucesso!</p>";
             //echo "Erro: Usuário não cadastrado com sucesso. Erro gerado: " . $erro->getMessage() . " <br>";
         }
     }
