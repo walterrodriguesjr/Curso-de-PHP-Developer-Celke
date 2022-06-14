@@ -447,6 +447,36 @@ PHP e Banco de Dados
 
 27-Como apagar um registro no banco de dados
 	a instrução DELETE é usada para excluir um registro em uma tabela 
+
+28-Como usar o LIKE no MySQL
+	o operador LIKE é usado em uma cláusula WHERE para pesquisar um padrão específico em uma coluna 
+	
+29-Como usar o comando IN no MySQL
+	o comando IN especifica o que será buscado de determinada tabela no banco de dados 
+	
+30-Como usar o BETWEEN
+	serve para selecionar valores dentro de um intervalo (entre) 
+
+31-Como usar o ALIASES
+	serve para fornecer para a tabela, ou para a coluna, um nome temporário. (ALIAS está relacionado a apelido)
+
+32-Como usar o INNER JOIN
+	serve para selecionar registros que possuem valores correspondentes em ambas as tabelas, busca um valor e diferentes tabelas e colunas 
+
+33-Como usar o LEFT JOIN
+	serve para obter não apenas os dados relacionados de duas tabelas, mas também os dados não relacionados. (para buscar dados em uma segunda tabela)
+
+34-Como usar o RIGHT JOIN
+	ok
+
+35-Como usar o COUNT, SUM e AVG
+	COUNT retorna o número de linhas de pesquisa 
+	SUM retorna a soma total de uma coluna numérica 
+	AVG retorna o valor médio de uma coluna numérica 
+
+36-Como usar o GROUP BY no MySQL
+
+	
 	
 
 	
