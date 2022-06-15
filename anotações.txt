@@ -489,6 +489,23 @@ PHP Orientado a Objetos
 2-Como usar classes e objetos no PHP
 	classe é uma estrutura que abstrai um conjunto de objetos contendo caracteristicas semelhantes
 
+3-Como usar método e atributo com PHP
+	atributo representa uma propriedade que todos os objetos da classe têm
+		ex: a classe usuario tem propriedade: nome, email etc 
+	métodos são ações (funções)
+
+4-Como criar a classe e o método para listar registros do banco de dados
+	como conectar com o banco
+
+5-Como usar herança no PHP
+	herança possibilita implementar classes de uso geral 
+	elas podem ser extendidas por outra, reaproveitando seus atributos e métodos 
+		(classe pai e classe filha - sub classe e super classe)
+	
+	
+
+	
+
 
 
 
