@@ -475,8 +475,18 @@ PHP e Banco de Dados
 	AVG retorna o valor médio de uma coluna numérica 
 
 36-Como usar o GROUP BY no MySQL
+	agrupa linhas baseado em semelhanças entre elas
 
+							FINALIZADO
+-----------------------------------------------------------------------------------------------
+PHP Orientado a Objetos
+
+1-Introdução ao PHP Orientado a Objetos
+	é um estilo de programação 
+	agrupa tarefas semelhantes em classes 
+		classes t4em propriedades e métodos(funções)
 	
+2-Como usar classes e objetos no PHP
 	
 
 	
