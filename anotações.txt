@@ -487,7 +487,10 @@ PHP Orientado a Objetos
 		classes t4em propriedades e métodos(funções)
 	
 2-Como usar classes e objetos no PHP
-	
+	classe é uma estrutura que abstrai um conjunto de objetos contendo caracteristicas semelhantes
+
+
+
 
 	
 
